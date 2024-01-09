@@ -70,11 +70,7 @@
   "rules": {
     "semi": "off",
     "@typescript-eslint/semi": "off",
-    "no-restricted-syntax": [
-      "error",
-      "FunctionExpression",
-      "FunctionDeclaration"
-    ],
+    "no-restricted-syntax": ["error", "FunctionExpression", "FunctionDeclaration"],
     "no-console": "error",
     "@typescript-eslint/no-unused-vars": [
       "error",
@@ -120,14 +116,7 @@
           "caseInsensitive": true,
           "orderImportKind": "asc"
         },
-        "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          ["index", "sibling"],
-          "object"
-        ],
+        "groups": ["builtin", "external", "internal", "parent", ["index", "sibling"], "object"],
         "newlines-between": "always",
         "pathGroups": [
           {
@@ -157,7 +146,7 @@
         "allowArray": false,
         "allowArrowFunction": false,
         "allowAnonymousClass": false,
-        "allowAnonymousFunction": false,
+        "allowAnonymousFunction": true,
         "allowCallExpression": true,
         "allowNew": false,
         "allowLiteral": false,
