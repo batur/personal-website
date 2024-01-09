@@ -40,3 +40,6 @@ next-env.d.ts
 .env
 
 certificates
+
+# personal
+todo.md
